@@ -1,9 +1,14 @@
 # Mesa_ayuda
 
-
 Una aplicación para una empresa de telecomunicaciones que les permite hacer una mesa de ayuda en donde clientes puedan crear `tickets` y que eston sean asignados a técnicos para resolver dicho problema.
 
-También hay un usuario administrador que puede crear o eliminar técnicos y tiene relevancia en la asignación de los tickets.
+El sistema cuenta con roles como:
+
+* Cliente: Que puede registrarse, logearse, crear tickets y eliminarlos, así como ver en tiempo real los cambios es los estados, prioridad y el técnico asignado.
+* Técnico: Es creado por el administrador y tiene la tarea de resolver los tickets y decidir la prioridad, y cambiar el estado.
+* Administrador: Gestiona técnicos y puede ver todos los tickets y usuarios, puede crear técnicos y asignarlo a un ticket. Pero no puede manjar aspectos del ticket o eliminar usuarios o tickets.
+
+Para el desarrollo de la aplicación se usó `Python` con el framework `Flask` para todo el backend y la lógica de negocio. Para el frotend se usarón tecnologías web como HTML, CSS con Boostrap y JS vanilla.
 
 
 ## Instalación y ejecución
